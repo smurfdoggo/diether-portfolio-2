@@ -1,0 +1,5 @@
+Tool: Built-in image_gen (edit)
+Input: public/diether-besa.jpg
+Output: public/diether-besa-suit.png
+
+Use case: identity-preserve. Asset type: professional software engineer portfolio profile portrait. Input image 1 is the edit target and sole identity reference. Edit this same man into a tailored dark charcoal suit jacket, crisp white dress shirt, and understated dark tie. Preserve his exact recognizable facial features, face shape, skin tone, hairstyle, age, natural expression, and forward-facing pose; do not beautify, reshape his face, or change his identity. Create a polished, photorealistic studio headshot with soft flattering but natural light, realistic skin texture and fabric detail. Use a simple warm light-gray studio background. Square composition, centered head and shoulders to mid-chest, enough room above the hair and at the sides to work in a rounded square portfolio crop. Keep the head upright. No text, logos, objects, watermark, or extra people. Change clothing and subtly improve photographic lighting/background only.
