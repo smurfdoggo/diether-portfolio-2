@@ -30,6 +30,8 @@ No image component changes are needed. Use images you have permission to share; 
 
 The contact form opens the visitor's mail app with a prepared message. It does not send email directly and has no backend.
 
+The About section shows the last year of contributions for `profile.github` in `src/data.js`. It loads public activity from the [GitHub Contributions API](https://github.com/grubersjoe/github-contributions-api), which caches results for one hour; no token is included in the site. If the service fails or times out, the card keeps a link to the GitHub profile. The calendar supports the portfolio themes and horizontal scrolling on smaller screens.
+
 Skill logos are mapped in `src/data.js` and served locally from `public/skills/`. Source credits and licenses are stored alongside the images. The current skill list includes only technologies with logos.
 
 Section headings and content cards fade and slide into view once while scrolling. The effect respects reduced-motion preferences, keeps content visible if animation APIs are unavailable, and also applies to expanded projects. Its behavior is in `src/scrollReveal.js`.

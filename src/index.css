@@ -78,6 +78,22 @@ a.icon-button:hover, button.icon-button:hover { color: var(--color-accent); bord
 .eyebrow { color: var(--color-accent); font-size: 9px; font-weight: 600; letter-spacing: .18em; }
 .inline-link { display: inline-flex; align-items: center; gap: 8px; color: var(--color-accent); font-size: 12px; font-weight: 600; }
 .inline-link:hover { text-decoration: underline; text-underline-offset: 4px; }
+.contributions-card { --contribution-0: #ebedf0; --contribution-1: #9be9a8; --contribution-2: #40c463; --contribution-3: #30a14e; --contribution-4: #216e39; min-width: 0; }
+:root[data-theme^="dark-"] .contributions-card, :root[data-theme="neon"] .contributions-card { --contribution-0: #303640; --contribution-1: #0e4429; --contribution-2: #006d32; --contribution-3: #26a641; --contribution-4: #39d353; }
+.contributions-scroll { overflow-x: auto; padding-bottom: 4px; scrollbar-width: thin; }
+.contributions-calendar { display: block; width: 100%; min-width: 690px; }
+.contributions-calendar text { fill: var(--color-muted); font-family: var(--font-sans); font-size: 10px; }
+.contributions-card [data-level="0"] { --contribution-color: var(--contribution-0); }
+.contributions-card [data-level="1"] { --contribution-color: var(--contribution-1); }
+.contributions-card [data-level="2"] { --contribution-color: var(--contribution-2); }
+.contributions-card [data-level="3"] { --contribution-color: var(--contribution-3); }
+.contributions-card [data-level="4"] { --contribution-color: var(--contribution-4); }
+.contributions-calendar rect { fill: var(--contribution-color); }
+.contributions-calendar rect:hover { stroke: var(--color-ink); stroke-width: 1px; }
+.contributions-legend { display: flex; align-items: center; gap: 4px; }
+.contributions-legend i { width: 10px; height: 10px; border-radius: 2px; background: var(--contribution-color); }
+.contributions-legend span:first-child { margin-right: 3px; }
+.contributions-legend span:last-child { margin-left: 3px; }
 .skill-card { transition: border-color .2s, transform .2s; }
 .skill-card:hover { border-color: var(--color-accent); transform: translateY(-3px); }
 .skill-icon { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 12px; background: var(--color-lavender); color: var(--color-accent); }

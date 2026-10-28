@@ -4,6 +4,7 @@ import { buildMailto } from './contact.js'
 import { observeScrollReveals } from './scrollReveal.js'
 import Icon from './Icon.jsx'
 import ThemePicker from './ThemePicker.jsx'
+import GithubContributions from './GithubContributions.jsx'
 
 const sections = [
   ['home', 'Home'], ['about', 'About me'], ['skills', 'Skills & expertise'],
@@ -132,6 +133,7 @@ export default function App() {
           <div className="text-muted leading-[1.9] text-[15px]"><p>I’m Diether, a software engineer based in Caloocan City, Philippines. Over the past two years, I’ve built, maintained, and deployed web applications that help people manage their everyday work.</p><p className="mt-5">My experience spans HR systems, booking platforms, payments, and business tools. I enjoy connecting the pieces: a clear interface, a well-structured API, and a dependable database.</p><p className="mt-5">I’ve also led intern developers and use AI-assisted tools like Codex and GitHub Copilot for planning, writing code, and debugging.</p><a className="inline-link mt-6" href={profile.resume} download>More about my background<Icon name="diagonal" className="h-4 w-4" /></a></div>
           <div className="rounded-3xl border border-line bg-surface p-7 sm:p-8"><h3 className="eyebrow !text-muted">QUICK FACTS</h3><dl className="mt-6 space-y-5">{[['Name', profile.fullName], ['Based in', profile.location], ['Focus', 'Full-stack web development']].map(([label,value]) => <div key={label}><dt className="text-[10px] font-semibold uppercase tracking-[.14em] text-muted">{label}</dt><dd className="mt-1.5 text-sm font-medium">{value}</dd></div>)}<div><dt className="text-[10px] font-semibold uppercase tracking-[.14em] text-muted">Email</dt><dd className="mt-1.5"><a className="text-sm font-medium text-accent break-all hover:underline" href={`mailto:${profile.email}`}>{profile.email}</a></dd></div></dl></div>
         </div>
+        <GithubContributions />
       </section>
 
       <section id="skills" className="section-shell content-section">

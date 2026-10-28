@@ -8,6 +8,7 @@ export const profile = {
   phoneHref: 'tel:+639155797964',
   location: 'Caloocan City, Philippines',
   linkedin: 'https://www.linkedin.com/in/diether-besa-31b998275',
+  github: 'https://github.com/dterayahtek',
   resume: '/Diether-Besa-Resume.pdf',
   summary:
     'Software engineer with 2 years of experience building and deploying full-stack web applications with Laravel, React, Vue.js, and MySQL. My work spans HR systems, booking platforms, payment integrations, and guiding intern developers.',
