@@ -113,7 +113,7 @@ export default function App() {
             <p className="mb-3 text-sm font-medium text-muted">Hello, I’m</p>
             <h1 className="text-[clamp(3.5rem,6.5vw,6rem)] leading-[1.04] font-extrabold tracking-[-0.075em]">Diether Besa<span className="text-accent">.</span></h1>
             <h2 className="mt-6 max-w-lg text-[clamp(1.4rem,2.3vw,2rem)] leading-[1.4] font-semibold tracking-[-0.04em] text-accent">Software engineer.<br />Full-stack problem solver.</h2>
-            <p className="mt-6 max-w-[470px] text-[15px] sm:text-base leading-[1.85] text-muted">As Lead Developer for Ayahtek’s HR Management System, I mentored interns in writing clean, well-structured code. I also contributed to Philippine government projects, including the Police Pensioners Management System and Case Monitoring System.</p>
+            <p className="mt-6 max-w-[470px] text-[15px] sm:text-base leading-[1.85] text-muted">I joined Ayahtek as an intern developer and was hired as a developer after my internship. I later became Lead Developer for the HR Management and Pet Booking systems, guiding intern developers on system structure and writing clean, maintainable code. I also contributed to the Music Booking Platform and Ticketing Management System, as well as Philippine government projects including the Police Pensioners Management System and Case Monitoring System.</p>
             <div className="mt-8 flex flex-wrap gap-3"><a href="#projects" className="button button-primary">View my work<Icon name="arrow" className="h-4 w-4" /></a><a href={profile.resume} download className="button button-secondary">Download CV<Icon name="download" className="h-4 w-4" /></a></div>
             <div className="mt-7"><SocialLinks /></div>
           </div>
